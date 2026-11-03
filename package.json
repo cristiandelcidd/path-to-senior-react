@@ -1,0 +1,13 @@
+{
+  "name": "path-to-senior",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "oxlint retos",
+    "nuevo-reto": "node scripts/nuevo-reto.mjs"
+  },
+  "devDependencies": {
+    "oxlint": "catalog:"
+  }
+}
